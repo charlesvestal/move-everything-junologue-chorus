@@ -16,7 +16,7 @@ Faithful reproduction of the Roland Juno-60 BBD chorus with three classic modes.
 
 ## Prerequisites
 
-- [Move Everything](https://github.com/charlesvestal/move-anything) installed on your Ableton Move
+- [Move Everything](https://github.com/charlesvestal/move-everything) installed on your Ableton Move
 - SSH access enabled: http://move.local/development/ssh
 
 ## Install
@@ -33,7 +33,7 @@ Faithful reproduction of the Roland Juno-60 BBD chorus with three classic modes.
 Requires Docker (recommended) or ARM64 cross-compiler.
 
 ```bash
-git clone https://github.com/charlesvestal/move-anything-junologue-chorus
+git clone https://github.com/charlesvestal/move-everything-junologue-chorus
 cd move-anything-junologue-chorus
 ./scripts/build.sh
 ./scripts/install.sh
